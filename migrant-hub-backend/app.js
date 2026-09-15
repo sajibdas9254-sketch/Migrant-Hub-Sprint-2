@@ -1,3 +1,6 @@
+require("dotenv").config();
+const connectDB = require("./config/db");
+
 const express = require("express");
 
 const morgan = require("morgan");
@@ -5,6 +8,7 @@ const morgan = require("morgan");
 const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
+connectDB();
 
 app.use(express.json());
 
