@@ -5,10 +5,11 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import MustDo from "./pages/MustDo";
-import Community from "./pages/Community";
+import MustDoPage from './pages/MustDoPage';
+import CommunityPage from './pages/CommunityPage';
 import Search from "./pages/Search";
-import Login from "./pages/Login";
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/must-do" element={<MustDo />} />
-        <Route path="/community" element={<Community />} />
+        <Route path="/must-do" element={<MustDoPage />} />
+        <Route path="/community" element={<CommunityPage />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
 
       <Footer />
