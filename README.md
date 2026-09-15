@@ -1,1 +1,1 @@
-# Migrant-Hub-Sprint-2-Planning
+# MigrantHub-Sprint2
