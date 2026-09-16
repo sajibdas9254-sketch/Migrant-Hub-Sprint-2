@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import posts from "../data/postsData";
+import PostCard from "../components/PostCard";
 
 function Home() {
     const navigate = useNavigate();
@@ -79,8 +81,10 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="posts-grid">
-                        <p>Latest posts will appear here.</p>
+                    <div className="blog-posts-grid">
+                        {posts.slice(0, 3).map((post) => (
+                            <PostCard key={post.id} post={post} />
+                        ))}
                     </div>
                 </div>
             </section>
