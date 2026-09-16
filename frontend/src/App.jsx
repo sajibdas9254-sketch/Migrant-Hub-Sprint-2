@@ -5,11 +5,13 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import MustDoPage from './pages/MustDoPage';
-import CommunityPage from './pages/CommunityPage';
+import BlogDetails from "./pages/BlogDetails";
+import WritePost from "./pages/WritePost";
+import MustDoPage from "./pages/MustDoPage";
+import CommunityPage from "./pages/CommunityPage";
 import Search from "./pages/Search";
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="/write-post" element={<WritePost />} />
         <Route path="/must-do" element={<MustDoPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/search" element={<Search />} />
