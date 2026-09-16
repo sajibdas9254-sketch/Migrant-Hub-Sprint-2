@@ -11,12 +11,13 @@ const app = express();
 connectDB();
 
 app.use(express.json());
-
 app.use(morgan("dev"));
 
 const postRoutes = require("./routes/postRoutes");
+const mustDoRoutes = require("./routes/mustDoRoutes");
 
 app.use("/api/posts", postRoutes);
+app.use("/api/mustdo", mustDoRoutes);
 
 const PORT = 4000;
 
