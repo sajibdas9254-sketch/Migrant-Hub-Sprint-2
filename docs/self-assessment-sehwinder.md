@@ -1,4 +1,4 @@
-# LLM Code Self-Assessment — Sehwinder Singh
+# LLM Code Self-Assessment - Sehwinder Singh
 
 **Sprint:** Sprint 2, 3–17 September 2026
 **Code assessed:** `config/db.js`, `models/postModel.js`, `models/communityModel.js`, `models/mustDoModel.js`, `seed.js`
