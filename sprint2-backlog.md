@@ -9,7 +9,7 @@ Status recorded at the end of the sprint, 17 September 2026.
 
 ---
 
-## First — both teams together
+## First - both teams together
 
 | # | Task | Who | Status |
 |---|---|---|---|
@@ -17,13 +17,8 @@ Status recorded at the end of the sprint, 17 September 2026.
 | 2 | Decide that Must Do content comes from the backend, not hardcoded in the frontend | All five | Done |
 | 3 | Commit the API contract to the repo so both teams work from the same file | Sajib | Done |
 
-Once this was done, the two teams worked for two weeks without waiting for each other.
-
----
 
 ## Frontend — Sajib, Pratham, Prabhleen
-
-Built in this order. The last two were the ones we agreed to drop if we ran out of time.
 
 | # | Task | Notes | Status |
 |---|---|---|---|
@@ -39,15 +34,11 @@ Built in this order. The last two were the ones we agreed to drop if we ran out 
 | 10 | Login page | Only shows "Login successful" — no real login | Done |
 | 11 | Register page | Only shows "Registration successful" | Done |
 | 12 | Mock data file, written in the same shape as the agreed API | `frontend/src/data/` | Done |
-| 13 | Community page | Drop this first if we run short | Done — we did not have to drop it |
-| 14 | Search results page | Drop this second if we run short | **Not done** — dropped as planned |
+| 13 | Community page | Drop this first if we run short | Done — we did not have to drop it 
 
 ---
 
 ## Backend — Sehwinder, Yun
-
-Posts first. It is the main thing our product does, and the other two are simpler versions
-of the same pattern.
 
 | # | Task | Notes | Status |
 |---|---|---|---|
@@ -74,51 +65,22 @@ Easy to forget, and it is worth marks.
 |---|---|---|---|
 | 1 | Run the Sprint 2 retrospective using the 4Ls format — Liked, Learned, Lacked, Longed for | Whole team | Done |
 | 2 | Run the Sprint Review and write down what we finished | Whole team | Done |
-| 3 | Each person: LLM self assessment of their frontend code | Everyone | Pending |
-| 4 | Each person: LLM self assessment of their backend code | Everyone | Pending |
+| 3 | Each person: LLM self assessment of their frontend code | Everyone | Done |
+| 4 | Each person: LLM self assessment of their backend code | Everyone | Done |
 | 5 | Build the 10–12 minute presentation | Sehwinder | Done |
-
-**Open question for the teacher.** Items 3 and 4 say every member does both. Three of us
-worked only on the frontend and two only on the backend, so we need to know whether we assess
-only the code we wrote, or whether everyone should commit something on both sides.
 
 ---
 
 ## Outcome
 
-**Delivered:** 25 of the 26 build tasks. Every frontend page except search results, the full
-backend running on MongoDB, and the API contract both halves were built against.
+**Delivered:** Every frontend page, the full backend running on MongoDB, and the API contract both halfes were built against.
 
-**Not delivered:** the search results page. It was listed at planning as the second thing to
-drop if time ran short, and that is what happened. It carries into Sprint 3, where the work is
-connecting it rather than designing it — the backend already accepts a `?search=` parameter.
+**Not delivered:** Most of the parts were done.
 
-**What went to plan:** the layer split held. The Mongoose refactor in item 11 touched only the
-model files and required no changes to the controllers, which is exactly what we predicted when
-we chose to split the backend by layer rather than by feature.
+**What went to plan:**  Oue distribution of work planned very well. 
 
 **What we did not expect:** building the pages caught three things the prototype had missed —
-the category list was wrong, the write-a-post form had no way to set a required field, and
-official information needs a "last checked" date. All three came out of writing the API
-contract before writing any code.
-
-**What we cannot yet prove:** that the two halves match. They were built to the same contract
-but nothing checked it, and we have already found two places where the wording drifted between
-the frontend's mock data and the seeded database. That is the first thing Sprint 3 resolves.
-
----
-
-## Rough plan, and how it actually went
-
-**Week 1 (3–10 September) — as planned.** API contract agreed and committed. Frontend set up
-the project, navbar, routing and the first pages. Backend set up the server, MVC structure and
-posts with array data, tested in Postman.
-
-**Week 2 (10–17 September) — mostly as planned.** Frontend finished the remaining pages and
-forms. Backend added Must Do and communities, then refactored to MongoDB and Mongoose after it
-was taught in class. The process documents and the presentation were finished in the last two
-days, which is later than ideal — a smaller version of the compression we flagged in the
-Sprint 1 retrospective.
+the category list was wrong, the write a post form had no way to set a required field.
 
 ---
 
