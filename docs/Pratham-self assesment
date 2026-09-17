@@ -1,0 +1,12 @@
+LLM Code Self-Assessment — Pratham Arora
+Sprint: Sprint 2, 3–17 September 2026
+Code assessed: Frontend — React/Vite application
+Branch: frontend
+Summary
+During Sprint 2, I worked mainly on the frontend development of the Migrant Hub project using React and Vite. My main responsibility was to create a functional and user-friendly interface for newcomers in Finland. I developed several important pages, including the Home, Blog, Write Post, Must Do, Community, Search, and Login pages. I also worked on the navigation bar, footer, reusable post cards, buttons, forms, page layouts, and responsive styling.
+One of the main things I focused on was keeping the design consistent throughout the website. I used a dark navy, orange, and cream colour scheme with a Helsinki/Nordic-inspired style. I also added Helsinki-related backgrounds and visual elements to make the website feel more connected to the purpose of Migrant Hub. React Router was used to connect the different pages and make navigation easier for users.
+From reviewing my frontend work, I agree that reusable components are important. For example, using the PostCard component means that the same structure can be used for multiple blog posts without repeating the code. This makes future changes easier and keeps the website more consistent.
+I also learned the importance of organising CSS properly. Using global.css helped me maintain common styles across different pages. However, as the project became larger, I noticed that some CSS could be organised more clearly to avoid unnecessary repetition or conflicts.
+I do not completely agree that every small section should become a separate component. Some sections are only used once, so keeping them inside their page component can make the code easier to understand. I also think using temporary frontend data was reasonable while the backend was being developed separately by other team members.
+If I could improve my work, I would plan the component structure and responsive design earlier. I would also connect the frontend to the real backend API sooner so that I could test the complete application and identify any differences between the frontend and backend data.
+Overall, this sprint helped me improve my React, CSS, routing, UI design, and teamwork skills. I learned that developing a good frontend is not only about making it visually attractive; it also needs to be organised, reusable, responsive, and able to work properly with the backend.
