@@ -1,17 +1,17 @@
-# Daily Scrum Log — Sprint 2
+# Daily Scrum Log - Sprint 2
 
-**Project:** Migrant Hub — student onboarding and blogging platform
-**Sprint 2:** 3 September – 17 September 2026
+**Project:** Migrant Hub - student onboarding and blogging platform
+**Sprint 2:** 3 September - 17 September 2026
 **Scrum Master:** Sajib Das
 
 One line per daily scrum, recorded on the day. Writing this log was an action we agreed in
 the Sprint 1 retrospective, where we noted that we held our daily meetings but left no record
 of them.
 
-# Daily Scrum Log — Sprint 2
+# Daily Scrum Log - Sprint 2
 
-**Project:** Migrant Hub — student onboarding and blogging platform
-**Sprint 2:** 3 September – 17 September 2026
+**Project:** Migrant Hub - student onboarding and blogging platform
+**Sprint 2:** 3 September - 17 September 2026
 **Scrum Master:** Sajib Das
 
 One line per daily scrum. We agreed to keep this log as an action from the Sprint 1 retrospective, where we noted that we held our daily meetings but left no record of them.
